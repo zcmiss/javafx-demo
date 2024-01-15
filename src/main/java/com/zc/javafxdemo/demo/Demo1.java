@@ -1,11 +1,10 @@
-package com.zc.javafxdemo.demo1;
+package com.zc.javafxdemo.demo;
 
 import javafx.application.Application;
 import javafx.stage.Stage;
 
 
 /**
- * demo1
  * JavaFX入门程序
  *
  * @author zc
@@ -26,4 +25,5 @@ public class Demo1 extends Application {
     public static void main(String[] args) {
         launch(args);
     }
+
 }
