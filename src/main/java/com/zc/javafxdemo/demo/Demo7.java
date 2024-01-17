@@ -35,9 +35,9 @@ public class Demo7  extends Application {
         Scene scene = new Scene(group);
         scene.setCursor(Cursor.HAND);
         //获取图片的路径
-        URL resource = getClass().getResource("/com/zc/javafxdemo/demo/images/aigeico.png");
+        URL resource = getClass().getResource("images/aigeico.png");
         //将图片的路径转换为字符串
-        String cursor = Objects.requireNonNull(resource).toExternalForm();
+        String cursor = resource.toExternalForm();
         //用图片设置鼠标样式
         scene.setCursor(Cursor.cursor(cursor));
 
